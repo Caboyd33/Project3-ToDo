@@ -1,0 +1,46 @@
+/* Homepages.css */
+
+/* Style for the Bootstrap Table */
+.striped {
+    border: 3px ridge pink; /* Pink ridge border */
+    border-radius: 20px;     /* Rounded corners */
+    margin: 20px;            /* Margin around the table */
+    padding: 10px;           /* Padding inside the table */
+    background-color: bisque; /* Light beige background color */
+  }
+  
+  /* Styling for table bordered */
+  bordered {
+    background-color: #ba1818; /* Light gray background for headers */
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Styling for table cells */
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Striped rows */
+  tr:nth-child(even) {
+    background-color: #bb1486; /* Alternating row background */
+  }
+  
+  /* Hover effect on table rows */
+  tr:hover {
+    background-color: #f1f1f1; /* Lighter background when hovering */
+  }
+  
+  /* Style for the 'Completed' and 'Incomplete' task status */
+  .completed {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .incomplete {
+    color: red;
+    font-weight: bold;
+  }
+  
